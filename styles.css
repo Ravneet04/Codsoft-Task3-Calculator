@@ -5,7 +5,6 @@
 }
 
 body{
-    
     background-color: #f1f1f1;
 }
 
@@ -59,4 +58,30 @@ input[type="text"]{
     margin: 10px;
     padding: 2px;
     font-size: 30px;
+}
+@media(max-width:360px){
+    .calculatorBody{
+        width: 330px;
+        height: 500px;
+    }
+    input[type="button"]{
+        width: 45px;
+        height: 40px;
+    }
+    tr{
+        width: 47px;
+        height: 40px;
+    }
+    table{
+        width: 340px;
+        height: 300px;
+    }
+    input[type="text"] {
+        width: 277px;
+        height: 80px;
+        text-align: right;
+        margin: 10px;
+        padding: 2px;
+        font-size: 30px;
+}
 }
